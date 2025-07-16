@@ -26,9 +26,13 @@ function TabContent({ item }) {
         </div>
       </div>
 
-      <div className="tab-undo">
-        <button>Undo</button>
-        <button>Undo in 2s</button>
+      <div className="tab-undo bg-gradient-to-br from-blue-300 to-purple-700">
+        <button className="bg-gradient-to-br from-blue-300 to-purple-700">
+          Undo
+        </button>
+        <button className="bg-gradient-to-br from-blue-300 to-purple-700">
+          Undo in 2s
+        </button>
       </div>
     </div>
   );
