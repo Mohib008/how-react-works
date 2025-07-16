@@ -5,7 +5,7 @@ function Tab({ num, activeTab, onClick }) {
     <button
       className={`${
         activeTab === num ? "tab active" : "tab"
-      } bg-gradient-to-br from-blue-300 to-purple-700`}
+      } bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-4 rounded-lg `}
       onClick={() => onClick(num)}
     >
       Tab {num + 1}

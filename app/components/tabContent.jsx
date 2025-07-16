@@ -10,7 +10,7 @@ function TabContent({ item }) {
   }
 
   return (
-    <div className="tab-content bg-gradient-to-br from-blue-300 to-purple-700">
+    <div className="tab-content bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-4 rounded-lg">
       <h4>{item.summary}</h4>
       {showDetails && <p>{item.details}</p>}
 
@@ -26,11 +26,11 @@ function TabContent({ item }) {
         </div>
       </div>
 
-      <div className="tab-undo bg-gradient-to-br from-blue-300 to-purple-700">
-        <button className="bg-gradient-to-br from-blue-300 to-purple-700">
+      <div className="tab-undo bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-4 rounded-lg">
+        <button className="bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-4 rounded-lg">
           Undo
         </button>
-        <button className="bg-gradient-to-br from-blue-300 to-purple-700">
+        <button className="bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-4 rounded-lg">
           Undo in 2s
         </button>
       </div>

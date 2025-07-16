@@ -8,8 +8,8 @@ function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="bg-gradient-to-br from-blue-300 to-purple-700">
-      <div className="tabs">
+    <div className="bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-8 rounded-lg min-h-screen">
+      <div className="tabs shadow-lg p-4 rounded-lg">
         <Tab num={0} activeTab={activeTab} onClick={setActiveTab} />
         <Tab num={1} activeTab={activeTab} onClick={setActiveTab} />
         <Tab num={2} activeTab={activeTab} onClick={setActiveTab} />

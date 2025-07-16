@@ -5,7 +5,7 @@ import Tabs from "@/app/components/tabs";
 
 export default function main({ content }) {
   return (
-    <div className="bg-gradient-to-br from-blue-300 to-purple-700 p-8 pb-20 min-h-screen">
+    <div className="bg-gradient-to-br from-blue-300 to-purple-700 p-8 pb-20 min-h-screen shadow-lg rounded-lg">
       <Tabs content={content} />
     </div>
   );
