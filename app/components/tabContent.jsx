@@ -14,7 +14,7 @@ function TabContent({ item }) {
       <h4>{item.summary}</h4>
       {showDetails && <p>{item.details}</p>}
 
-      <div className="tab-actions">
+      <div className="tab-actions flex justify-between items-center">
         <button onClick={() => setShowDetails((h) => !h)}>
           {showDetails ? "Hide" : "Show"} details
         </button>

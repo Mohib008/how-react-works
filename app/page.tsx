@@ -4,8 +4,8 @@ import Content from "@/app/components/db/content";
 
 export default function Home({ content = Content }) {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 m-8 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-br from-blue-300 to-purple-700">
-      <main className="flex flex-col gap-[8px] row-start-2 sm:items-start relative p-8 m-8 bg-gradient-to-br from-blue-300 to-purple-700 ">
+    <div className="grid grid-rows-[20px_1fr_20px] min-h-screen p-8 m-8 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg rounded-lg">
+      <main className="flex flex-col gap-[8px] row-start-2 sm:items-start relative p-8 m-8 bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg rounded-lg">
         <Main content={content} />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
