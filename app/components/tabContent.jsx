@@ -19,7 +19,7 @@ function TabContent({ item }) {
           {showDetails ? "Hide" : "Show"} details
         </button>
 
-        <div className="hearts-counter">
+        <div className="hearts-counter bg-gradient-to-br from-blue-300 to-purple-700 shadow-lg p-2 rounded-lg flex items-center gap-2">
           <span>{likes} ❤️</span>
           <button onClick={handleInc}>+</button>
           <button>+++</button>
